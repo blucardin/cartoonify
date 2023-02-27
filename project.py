@@ -20,7 +20,7 @@ def main():
     # open Rick_Astley_Never_Gonna_Give_You_Up.mp4, for each frame, convert it to a cartoon, and save it to a new video
 
     if len(sys.argv) < 6:
-        sys.exit("Usage: python3 projectfinal.py <photo/video> <input file> <output file> <colordepth> <flags>")
+        sys.exit("Usage: python3 project.py <photo/video> <input file> <output file> <colordepth> <flags>")
 
     if sys.argv[1] == "video":
         video = sys.argv[2]
@@ -71,7 +71,7 @@ def main():
         cv2.imwrite(sys.argv[3], cartoon)
 
     else:
-        sys.exit("Usage: python3 projectfinal.py <photo/video> <input file> <output file> <colordepth> <flags>")
+        sys.exit("Usage: python3 project.py <photo/video> <input file> <output file> <colordepth> <flags>")
 
 
 def draw_lines(im, edges, threshold):
