@@ -11,15 +11,20 @@ The user can provide various flags to modify the output, such as changing the co
 
 The usage of the application is to be entered through the command line in the following format:
 
-python3 projectfinal.py <photo/video> <input file> <output file> <colordepth> <flags>
+python3 projectfinal.py (photo/video) (input file) (output file) (colordepth) (flags)
 
 Where:
 
 "photo/video" specifies whether the input is an image or a video
+
 "input file" is the path to the input file
+
 "output file" is the desired name and path of the output file
+
 "colordepth" is the number of colors to reduce the image to
+
 "flags" are optional arguments that can be passed to specify the edge detection and threshold values.
+
 If "photo" is specified as the first argument, the application will convert the input image to a cartoon and save the result to the output file.
 
 If "video" is specified as the first argument, the application will process each frame of the input video, convert it to a cartoon, and save it to a new video file. The audio from the original video is then added to the cartoonified video to create the final output.
