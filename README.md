@@ -32,7 +32,7 @@ If "photo" is specified as the first argument, the application will convert the 
 
 If "video" is specified as the first argument, the application will process each frame of the input video, convert it to a cartoon, and save it to a new video file. The audio from the original video is then added to the cartoonified video to create the final output.
 
-Optional flags include "-c" to use the Canny edge detector, "-n" to turn off edge detection, and "-sX" to use the Sobel edge detector set the edge threshold to X (where X is an integer value). If not specified, the default is the Sobel with threshold 50.
+Optional flags include "-c" to use the Canny edge detector, "-n" to turn off edge detection, and "-sX" to use the Sobel edge detector and set the edge threshold to X (where X is an integer value). If not specified, the default is the Sobel with threshold 50.
 
 
 This project was created by Noah Virjee as the final project for the CS50p course. 
